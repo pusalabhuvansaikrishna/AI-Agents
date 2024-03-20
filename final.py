@@ -5,10 +5,10 @@ from crewai import Agent, Task, Process, Crew
 from langchain_openai import ChatOpenAI
 from langchain.agents import Tool
 
-os.environ['OPENAI_API_KEY']='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'
+os.environ['OPENAI_API_KEY']="YOUR_API_KEY"
 os.environ['OPENAI_MODEL_NAME']='gpt-3.5-turbo-0125'
-os.environ['SERPER_API_KEY']='e37cb89dc694952c44c036c50cb62044acd70c2c'
-os.environ['EXA_API_KEY'] ='bab3594a-7620-42f7-9b20-63b0b0a9cd2f'
+os.environ['SERPER_API_KEY']="YOUR_API_KEY"
+os.environ['EXA_API_KEY'] ="YOUR_API_KEY"
 
 #Google Scrapper
 from langchain.utilities import GoogleSerperAPIWrapper
